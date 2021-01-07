@@ -1,0 +1,17 @@
+server:
+  port: 9000
+spring:
+  jpa:
+    show-sql: true
+    database: mysql
+  application:
+    name: miniprogram
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mysql?characterEncoding=utf-8&&useSSL=false&&serverTimezone=UTC
+  servlet:
+    multipart:
+      max-file-size: 5MB
+
